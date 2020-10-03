@@ -1,0 +1,6 @@
+com\aravind\lc\controller\LCAppController.class
+com\aravind\lc\config\LoveCalculatorApplicationInitializer.class
+com\aravind\lc\entity\UserInfoEntity.class
+com\aravind\lc\controller\TestController.class
+com\aravind\lc\config\AppConfig.class
+com\aravind\lc\config\LCApplicationInitializer.class
