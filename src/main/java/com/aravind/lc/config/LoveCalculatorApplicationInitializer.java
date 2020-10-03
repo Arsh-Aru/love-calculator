@@ -17,8 +17,8 @@ import org.springframework.web.servlet.DispatcherServlet;
  * @author Aravind S
  *
  */
-public class LoveCalculatorApplicationInitializer implements WebApplicationInitializer {
-
+public class LoveCalculatorApplicationInitializer // implements WebApplicationInitializer 
+{
 	public void onStartup(ServletContext servletContext) throws ServletException {
 		System.out.println("my custom startup method");
 		//using xml config
