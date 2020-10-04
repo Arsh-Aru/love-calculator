@@ -8,13 +8,16 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<div align="right">
+		<a href="register">register</a>
+	</div>
 	<h1 align="center">My Love Calculator world</h1>
 	<hr />
 	<form:form action="result-page" method="get" modelAttribute="userInfo">
 		<div align="center">
 			<p>
 				<label>Your Name :</label>
-				<form:input  id="yn" path="userName" />
+				<form:input id="yn" path="userName" />
 			</p>
 			<p>
 				<label>Crush Name :</label>

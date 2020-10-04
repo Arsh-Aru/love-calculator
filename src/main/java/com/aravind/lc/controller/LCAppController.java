@@ -2,10 +2,12 @@ package com.aravind.lc.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.aravind.lc.entity.UserInfoEntity;
+import com.aravind.lc.entity.UserRegisterEntity;
 
 @Controller
 public class LCAppController {
@@ -15,6 +17,8 @@ public class LCAppController {
 		model.addAttribute("userInfo", new UserInfoEntity());
 		return "home-page";
 	}
+
+	
 
 //	@RequestMapping("/result-page")
 //	public String showResultPage(Model model,@RequestParam String userName,@RequestParam String crushName) {
